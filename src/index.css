@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.togglediv{
+    background-color: #fff;
+    transition: 0.5s;
+    
+}
+.togglediv.dark{
+    background:black!important;
+}
+
+.togglediv.dark .nav-link {
+    color: #fff!important;
+}
+.togglediv.dark .mm {
+    color: #fff!important;
+}
+.togglediv.dark i{
+    color: #fff!important;
+}
+.togglediv.dark .ll{
+   color: #fff!important;
+    background-color: black!important;
+}
+.togglediv.dark .cart{
+    border: 1px solid #fff;
+    padding: 10px 8px 5px 8px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.dark .sellbt{
+    color: #fff!important;
+    
+}

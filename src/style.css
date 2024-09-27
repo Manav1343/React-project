@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cart{
+    border: 1px solid black;
+    padding: 10px 8px 5px 8px;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+.main{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.footerLink{
+    color: black;
+}
+.h{
+    font-size: 60px;
+    font-weight: 700;
+}
+.h5{
+    font-size: 20px;
+    color: #71717A;
+}
+
+.i{
+height: 550px;
+   opacity: 0.8;
+   background-image: url('/public/one.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 20px
+}
+.toggleIcon{
+    width: 25px;
+    cursor: pointer;
+}
+.dark .cart{
+    color:#fff;
+}
+.dark .footer{
+    color: #fff;
+}
+.dark .h{
+    color: #fff;
+}
+.dark .h5{
+    color: #fff;
+}
+.dark .i{
+    color: #fff;
+}
+.dark .footerLink{
+    color: #fff;
+}
+.g{
+    border: 1px solid #fff;
+    
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: px;
+}
